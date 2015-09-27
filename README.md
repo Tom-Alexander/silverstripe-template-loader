@@ -1,5 +1,7 @@
 # silverstripe-template-loader
 
+[![Build Status](https://travis-ci.org/Tom-Alexander/silverstripe-template-loader.svg)](https://travis-ci.org/Tom-Alexander/silverstripe-template-loader)
+
 This is a [Webpack](https://webpack.github.io/) loader for [silverstripe templates](https://docs.silverstripe.org/en/3.1/developer_guides/templates/).
 
 ## Installation
@@ -25,7 +27,7 @@ You must explicitly require the page templates you want. This allows enables
 bundle splitting and async loading based on page type. Alternatively you could
 load all the templates in the `Layout` directory using `require.context`.
 
-Now assets can be required from any template file in your templates directory.
+Assets can now be required from any template file in your templates directory.
 Include templates will be resolved automatically. **Includes that cannot be resolved
 from the `Includes` directory are ignored without warning.**
 
