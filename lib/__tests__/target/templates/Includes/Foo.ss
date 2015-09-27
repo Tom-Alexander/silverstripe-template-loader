@@ -1,0 +1,1 @@
+<% Asset('../../source/foo.js') %>
